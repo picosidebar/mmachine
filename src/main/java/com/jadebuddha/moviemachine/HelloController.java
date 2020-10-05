@@ -22,7 +22,7 @@ public class HelloController {
     private static final String TMDB_API_KEY = "5d717da2350d73952b7b54f6ad8db677";
     private static final String TMDB_API_URL = "https://api.themoviedb.org/3/search/movie?api_key="+TMDB_API_KEY+"&query=";
     private static final String ALPHABET = "abcdefghijklmnopqrstuvwxyz ";
-    private static final String VIDEO_DIRECTORY = "Y:\\testing";
+    private static final String VIDEO_DIRECTORY = "/Volumes/video/testing";
 
     @Resource
     RestTemplate restTemplate;
